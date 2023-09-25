@@ -27,7 +27,7 @@
   height: 100%;
   width: 200%;
   border-radius: 0% 0% 50% 50%/0% 0% 50% 50%;
-  background-image: url("../img/DSC_9426.jpg");
+  background-image: url("../img/hero.jpg");
   background-position: center;
   background-size: 65%;
   background-position-y: 30%;

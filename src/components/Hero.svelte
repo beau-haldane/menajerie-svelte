@@ -13,9 +13,9 @@ import Navbar from "./Navbar.svelte";
   <!-- End Curved DIVs -->
 
   <!-- Hero Container -->
-  <div class="w-10/12 h-full flex flex-col justify-between items-center">
+  <div class="w-9/12 mb-14 h-full flex flex-col justify-between items-center">
     <Navbar />
-    <div class="mb-2 flex flex-col items-center">
+    <div class="z-10 mb-2 flex flex-col items-center">
       <h2 class="light-text">Debut EP</h2>
       <h1 class="light-text">Selective Deafness</h1>
       <h2 class="light-text">Out Now</h2>
@@ -37,7 +37,7 @@ import Navbar from "./Navbar.svelte";
     background-position: center;
     background-size: 65%;
     background-position-y: 30%;
-    z-index: -10;
+    z-index: 5;
   }
   .outline-01 {
     width: calc(200% + 6em);
@@ -46,7 +46,7 @@ import Navbar from "./Navbar.svelte";
     background-color: #ca604f;
     top: -3em;
     left: calc(-50% - 3em);
-    z-index: -11;
+    z-index: 4;
   }
   .outline-02 {
     width: calc(200% + 12em);
@@ -55,7 +55,7 @@ import Navbar from "./Navbar.svelte";
     background-color: #e68953;
     top: -6em;
     left: calc(-50% - 6em);
-    z-index: -12;
+    z-index: 3;
   }
   .outline-03 {
     width: calc(200% + 18em);
@@ -64,6 +64,6 @@ import Navbar from "./Navbar.svelte";
     background-color: #f0ac5d;
     top: -9em;
     left: calc(-50% - 9em);
-    z-index: -13;
+    z-index: 2;
   }
 </style>

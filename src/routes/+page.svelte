@@ -3,6 +3,7 @@
   import { onMount } from "svelte";
     import Hero from "../components/Hero.svelte";
     import Navbar from "../components/Navbar.svelte";
+    import AlbumCard from "../components/AlbumCard.svelte";
 
   interface Gig {
     id: string;
@@ -36,16 +37,10 @@
   });
 </script>
 
-<div class="h-screen w-screen flex flex-col items-center">
+<div class="w-screen flex flex-col items-center">
   <Hero />
   <!-- Content Container -->
-  <div class="w-10/12">
-    
+  <div class="w-9/12 z-10">
+    <AlbumCard />
   </div>
 </div>
-
-<style>
-  :global(h1) {
-    
-  }
-</style>

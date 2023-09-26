@@ -5,9 +5,9 @@ import SpotifyIcon from "../icons/SpotifyIcon.svelte";
     import YoutubeIcon from "../icons/YoutubeIcon.svelte";
 
 </script>
-<div class="navbar">
+<div class="navbar z-10">
   <div class="flex-1">
-    <h3 class="light-text">Menajerie</h3>
+    <h3 class="light-text z-10">Menajerie</h3>
   </div>
   <div class="flex-none">
     <button class="btn btn-square btn-ghost">

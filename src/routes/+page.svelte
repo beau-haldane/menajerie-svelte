@@ -2,6 +2,7 @@
   import { createClient } from "@supabase/supabase-js";
   import { onMount } from "svelte";
     import Hero from "../components/Hero.svelte";
+    import Navbar from "../components/Navbar.svelte";
 
   interface Gig {
     id: string;
@@ -35,12 +36,16 @@
   });
 </script>
 
-<Hero />
+<div class="h-screen w-screen flex flex-col items-center">
+  <Hero />
+  <!-- Content Container -->
+  <div class="w-10/12">
+    
+  </div>
+</div>
 
 <style>
   :global(h1) {
-    color: #f6f1eb;
-    font-size: 2.5em;
-    font-family: "Caprasimo";
+    
   }
 </style>

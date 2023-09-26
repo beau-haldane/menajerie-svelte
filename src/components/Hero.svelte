@@ -1,3 +1,8 @@
+<script>
+  import ScrollDownIcon from "../icons/ScrollDownIcon.svelte";
+import Navbar from "./Navbar.svelte";
+</script>
+
 <!-- Hero/Nav -->
 <div class="h-screen w-screen flex flex-col items-center">
   <!-- Curved DIVs - do not place content inside -->
@@ -5,10 +10,17 @@
   <div class="curved-bottom-border-hero outline-01" />
   <div class="curved-bottom-border-hero outline-02" />
   <div class="curved-bottom-border-hero outline-03" />
+  <!-- End Curved DIVs -->
 
   <!-- Hero Container -->
-  <div class="hero-container">
-    <h1>Menajerie</h1>
+  <div class="w-10/12 h-full flex flex-col justify-between items-center">
+    <Navbar />
+    <div class="mb-2 flex flex-col items-center">
+      <h2 class="light-text">Debut EP</h2>
+      <h1 class="light-text">Selective Deafness</h1>
+      <h2 class="light-text">Out Now</h2>
+      <ScrollDownIcon />
+    </div>
   </div>
 </div>
 
@@ -27,7 +39,6 @@
     background-position-y: 30%;
     z-index: -10;
   }
-
   .outline-01 {
     width: calc(200% + 6em);
     height: calc(100% + 6em);
@@ -37,7 +48,6 @@
     left: calc(-50% - 3em);
     z-index: -11;
   }
-
   .outline-02 {
     width: calc(200% + 12em);
     height: calc(100% + 12em);
@@ -47,7 +57,6 @@
     left: calc(-50% - 6em);
     z-index: -12;
   }
-
   .outline-03 {
     width: calc(200% + 18em);
     height: calc(100% + 18em);
@@ -56,11 +65,5 @@
     top: -9em;
     left: calc(-50% - 9em);
     z-index: -13;
-  }
-
-  /* Hero */
-  .hero-container {
-    width: 90em;
-    height: 90%;
   }
 </style>

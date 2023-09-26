@@ -4,6 +4,7 @@
     import Hero from "../components/Hero.svelte";
     import Navbar from "../components/Navbar.svelte";
     import AlbumCard from "../components/AlbumCard.svelte";
+    import MusicVideo from "../components/MusicVideo.svelte";
 
   interface Gig {
     id: string;
@@ -40,7 +41,8 @@
 <div class="w-screen flex flex-col items-center">
   <Hero />
   <!-- Content Container -->
-  <div class="w-9/12 z-10">
+  <div class="w-9/12 z-10 flex flex-col items-center gap-32">
     <AlbumCard />
+    <MusicVideo />
   </div>
 </div>

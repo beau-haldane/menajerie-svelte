@@ -13,9 +13,9 @@ import Navbar from "./Navbar.svelte";
   <!-- End Curved DIVs -->
 
   <!-- Hero Container -->
-  <div class="w-9/12 mb-14 h-full flex flex-col justify-between items-center">
+  <div class="w-9/12 mb-24 h-full flex flex-col justify-between items-center">
     <Navbar />
-    <div class="z-10 mb-2 flex flex-col items-center">
+    <div class="z-10 mb-2 flex flex-col gap-2.5 items-center">
       <h2 class="light-text">Debut EP</h2>
       <h1 class="light-text">Selective Deafness</h1>
       <h2 class="light-text">Out Now</h2>

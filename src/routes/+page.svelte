@@ -1,22 +1,15 @@
 <script lang="ts">
   import { createClient } from "@supabase/supabase-js";
   import { onMount } from "svelte";
-    import Hero from "../components/Hero.svelte";
-    import Navbar from "../components/Navbar.svelte";
-    import AlbumCard from "../components/AlbumCard.svelte";
-    import MusicVideo from "../components/MusicVideo.svelte";
+  import type { Gig } from "../types/types";
+  import Hero from "../components/Hero.svelte";
+  import AlbumCard from "../components/AlbumCard.svelte";
+  import MusicVideo from "../components/MusicVideo.svelte";
+  import BandBlurb from "../components/BandBlurb.svelte";
+  import UpcomingGigs from "../components/UpcomingGigs.svelte";
+    import Gallery from "../components/Gallery.svelte";
 
-  interface Gig {
-    id: string;
-    name: string;
-    date: string;
-    location: string;
-    description: string;
-    image: string;
-    link: string;
-  }
-
-  let gigs: Gig[] = [];
+  let gigs: Gig[] = []
 
   // Create a single supabase client for interacting with your database
   const supabase = createClient(
@@ -33,7 +26,7 @@
   };
 
   onMount(async () => {
-    gigs = await getGigs() as Gig[];
+    gigs = (await getGigs()) as Gig[];
     console.log("Fetched gigs:", gigs);
   });
 </script>
@@ -44,5 +37,8 @@
   <div class="w-9/12 z-10 flex flex-col items-center gap-32">
     <AlbumCard />
     <MusicVideo />
+    <BandBlurb />
+    <UpcomingGigs gigs={gigs} />
+    <Gallery />
   </div>
 </div>

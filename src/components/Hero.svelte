@@ -1,6 +1,6 @@
 <script>
   import ScrollDownIcon from "../icons/ScrollDownIcon.svelte";
-import Navbar from "./Navbar.svelte";
+  import Navbar from "./Navbar.svelte";
 </script>
 
 <!-- Hero/Nav -->

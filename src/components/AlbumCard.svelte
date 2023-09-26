@@ -1,6 +1,6 @@
-<div class="-mt-16 card lg:card-side bg-base-100 shadow-xl">
-  <figure class="w-1/3"><div class="album-art" /></figure>
-  <div class="w-2/3 flex flex-col gap-8 justify-center p-16">
+<div class="-mt-16 flex rounded-2xl bg-base-100 shadow-xl">
+  <div class="album-art w-1/3 rounded-s-2xl" />
+  <div class="w-2/3 flex flex-col gap-5 justify-center p-10">
     <h1>Selective Deafness</h1>
     <h2>Debut EP Out Now</h2>
     <p>
@@ -17,6 +17,5 @@
     background-image: url("/src/img/ep-artwork.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    aspect-ratio: 1 / 1;
   }
 </style>

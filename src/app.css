@@ -8,10 +8,6 @@
     background-color: #EFE4BD;
   }
 
-  p {
-    @apply text-lg;
-  }
-
   h1,
   h3,
   h4,
@@ -20,32 +16,8 @@
     font-family: "Caprasimo";
   }
 
-  h1 {
-    font-size: 3.25rem;
-    /* 48px */
-    line-height: 1;
-  }
-
   h2 {
-    @apply text-4xl;
     font-family: "Yellowtail";
-  }
-
-  h3 {
-    @apply text-4xl;
-    line-height: 1.4;
-  }
-
-  h4 {
-    @apply text-3xl;
-  }
-
-  h5 {
-    @apply text-2xl;
-  }
-
-  h6 {
-    @apply text-xl;
   }
 
   .btn{
@@ -62,5 +34,38 @@
 
   .light-text {
     color: #f6f1eb;
+  }
+
+  p {
+    @apply text-lg;
+  }
+
+  h1 {
+    @apply sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl;
+    /* font-size: 3.25rem; */
+    /* 48px */
+    line-height: 1;
+  }
+
+  h2 {
+    @apply xl:text-4xl;
+    font-family: "Yellowtail";
+  }
+
+  h3 {
+    @apply sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl;
+    line-height: 1.4;
+  }
+
+  h4 {
+    @apply xl:text-3xl;
+  }
+
+  h5 {
+    @apply xl:text-2xl;
+  }
+
+  h6 {
+    @apply xl:text-xl;
   }
 }

@@ -1,6 +1,6 @@
-<div class="-mt-16 flex rounded-2xl bg-base-100 shadow-xl">
-  <div class="album-art w-1/3 rounded-s-2xl" />
-  <div class="w-2/3 flex flex-col gap-5 justify-center p-10">
+<div class="-mt-16 flex flex-col xl:flex-row rounded-2xl bg-base-100 shadow-xl">
+  <div class="album-art w-full xl:w-1/3 aspect-square sm:rounded-t-2xl xl:rounded-s-2xl" />
+  <div class="w-full xl:w-2/3 flex flex-col gap-5 justify-center p-7 xl:p-10">
     <h1>Selective Deafness</h1>
     <h2>Debut EP Out Now</h2>
     <p>
@@ -8,7 +8,7 @@
       varius enim in eros elementum tristique. Duis cursus, mi quis viverra
       ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
     </p>
-    <button class="btn btn-primary w-1/4 light-text">Listen Now</button>
+    <button class="btn btn-primary xl:w-1/4 light-text">Listen Now</button>
   </div>
 </div>
 

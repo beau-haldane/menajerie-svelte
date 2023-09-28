@@ -16,7 +16,7 @@
             {#if gig.blurb}
               <p>{gig.blurb}</p>
             {/if}
-            <div class="flex flex-col text-2xl md:flex-row md:justify-between px-24 lg:px-0 lg:justify-start gap-4 sm:gap-8">
+            <div class="flex flex-col text-2xl lg:text-lg md:flex-row md:justify-between px-24 lg:px-0 lg:justify-start gap-4 sm:gap-8">
               <div class="flex flex-col w-1/2 lg:flex-row items-center gap-1 sm:gap-4 md:w-32">
                 <TimeIcon />{gig.date}
                 {#if gig.time}
@@ -37,7 +37,7 @@
           </div>
           <div class="flex md:flex-col gap-4">
             <button
-              class="btn btn-lg lg:btn-md text-2xl lg:text-xl btn-primary shadow-lg normal-case font-medium"
+              class="btn btn-lg lg:btn-md text-2xl lg:text-lg btn-primary shadow-lg normal-case font-medium"
               >Buy Tickets</button
             >
             <!-- <button

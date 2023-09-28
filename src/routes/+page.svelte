@@ -56,7 +56,7 @@
 <div class="w-screen flex flex-col sm:gap-12 lg:gap-0 items-center overflow-hidden">
   <Hero />
   <!-- Content Container -->
-  <div class="w-10/12 lg:w-9/12 z-10 flex flex-col items-center gap-24 sm:gap-32">
+  <div class="w-10/12 lg:w-9/12 xl:w-10/12 z-10 flex flex-col items-center gap-24 sm:gap-32">
     <AlbumCard />
     <MusicVideo />
     <BlurbAndGigs {gigs} />

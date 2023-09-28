@@ -1,4 +1,4 @@
-<div class="flex sm:flex-col lg:flex-row items-center px-12 gap-12 sm:w-9/12 lg:w-full">
+<div class="flex sm:flex-col lg:flex-row items-center px-12 gap-12 sm:w-9/12 md:w-full">
   <div class="sm:text-center lg:text-left lg:w-2/5">
     <h3>
       Neo-soul making, no shit taking, gonna get your booty shaking Menajerie

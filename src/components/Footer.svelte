@@ -9,7 +9,10 @@
   <div class="outline-03 aspect-square rounded-full absolute" />
   <Navbar light={false} />
   <div class="h-px w-full bg-primary" />
-  <p class="text-sm">© Menajerie 2023. Designed and built by Beau Jorgensen</p>
+  <div class="w-full flex flex-col items-center gap-0">
+    <p class="text-sm pb-1">© Menajerie 2023.</p>
+    <p class="text-sm pt-1">Designed and built by Beau Jorgensen</p>
+  </div>
 </div>
 
 <style>

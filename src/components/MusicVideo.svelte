@@ -1,5 +1,5 @@
-<div class="flex flex-col sm:gap-8 lg:gap-20 w-full items-center">
-  <h3 class="sm:text-3xl lg:text-5xl">'Stuck' Music Video</h3>
+<div class="flex flex-col sm:gap-8 md:gap-12 lg:gap-20 w-full items-center">
+  <h3 class="sm:text-3xl md:text-5xl">'Stuck' Music Video</h3>
   <div class="lg:px-24 w-full">
     <iframe
       class="w-full aspect-video shadow-xl"

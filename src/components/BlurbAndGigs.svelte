@@ -5,7 +5,7 @@
   export let gigs: Gig[] = [];
 </script>
 
-<div class="relative flex flex-col items-center sm:gap-24 md:gap-32">
+<div class="relative flex flex-col items-center gap-24 sm:gap-32">
   <div class="white-circle bg-secondary aspect-square rounded-full absolute" />
   <div class="outline-01 aspect-square rounded-full absolute" />
   <div class="outline-02 aspect-square rounded-full absolute" />

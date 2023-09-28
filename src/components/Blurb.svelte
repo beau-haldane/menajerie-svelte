@@ -1,11 +1,11 @@
-<div class="flex sm:flex-col lg:flex-row items-center px-12 gap-12 sm:w-9/12 md:w-full">
-  <div class="sm:text-center lg:text-left lg:w-2/5">
+<div class="flex flex-col md:flex-row items-center px-12 gap-12 w-9/12 sm:w-full">
+  <div class="text-center md:text-left md:w-2/5">
     <h3>
       Neo-soul making, no shit taking, gonna get your booty shaking Menajerie
       are a 6-piece female led collective based in Meanjin/Brisbane.
     </h3>
   </div>
-  <div class="w-3/5 sm:hidden lg:block flex flex-col gap-4">
+  <div class="w-3/5 hidden md:block flex flex-col gap-4">
     <p>
       The group is fronted by songstress & ivory-tinkler Gracie Mack, powerhouse
       vocalist Rosa Mack (Rosa Mack, KAYSO GRANDE) and fiery chanteuse Mel

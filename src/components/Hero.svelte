@@ -4,7 +4,7 @@
 </script>
 
 <!-- Hero/Nav -->
-<div class="relative lg:h-screen w-screen flex flex-col items-center">
+<div class="relative md:h-screen w-screen flex flex-col items-center">
   <!-- Curved DIVs - do not place content inside -->
   <div class="curved-bottom-border-hero" />
   <div class="curved-bottom-border-hero outline-01" />
@@ -13,10 +13,10 @@
   <!-- End Curved DIVs -->
 
   <!-- Hero Container -->
-  <div class="w-11/12 xl:w-9/12 mb-24 xl:h-full flex flex-col justify-between items-center">
+  <div class="w-11/12 lg:w-9/12 mb-24 lg:h-full flex flex-col justify-between items-center">
     <Navbar />
-    <div class="h-36 sm:hidden md:block lg:hidden" />
-    <div class="sm:mt-80 md:mt-96 lg:mt-0 z-10 mb-2 flex flex-col gap-2.5 items-center">
+    <div class="h-36 hidden sm:block md:hidden" />
+    <div class="mt-80 sm:mt-96 md:mt-0 z-10 mb-2 flex flex-col gap-2.5 items-center">
       <h2 class="light-text">Debut EP</h2>
       <h1 class="light-text">Selective Deafness</h1>
       <h2 class="light-text">Out Now</h2>

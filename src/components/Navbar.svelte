@@ -10,23 +10,23 @@
   <div class="flex-1">
     <h3
       class={light
-        ? "text-xl sm:text-4xl light-text z-10"
+        ? "text-xl sm:text-4xl md:text-5xl light-text z-10"
         : "text-xl sm:text-4xl z-10"}
     >
       Menajerie
     </h3>
   </div>
   <div class="flex items-center">
-    <button class="btn btn-square btn-xs sm:btn-md md:btn-md btn-ghost">
+    <button class="btn btn-square btn-xs sm:btn-md md:btn-lg btn-ghost">
       <SpotifyIcon {light} />
     </button>
-    <button class="btn btn-square btn-xs sm:btn-md md:btn-md btn-ghost">
+    <button class="btn btn-square btn-xs sm:btn-md md:btn-lg btn-ghost">
       <YoutubeIcon {light} />
     </button>
-    <button class="btn btn-square btn-xs sm:btn-md md:btn-md btn-ghost">
+    <button class="btn btn-square btn-xs sm:btn-md md:btn-lg btn-ghost">
       <PatreonIcon {light} />
     </button>
-    <button class="btn btn-square btn-xs sm:btn-md md:btn-md btn-ghost">
+    <button class="btn btn-square btn-xs sm:btn-md md:btn-lg btn-ghost">
       <InstagramIcon {light} />
     </button>
   </div>

@@ -9,7 +9,7 @@
   }
 
   p {
-    @apply text-lg sm:text-xl md:text-lg py-2;
+    @apply text-4xl md:py-6 lg:text-xl py-2 leading-normal;
   }
 
   h1,
@@ -21,20 +21,20 @@
   }
 
   h1 {
-    @apply text-3xl sm:text-5xl md:text-4xl lg:text-5xl;
+    @apply text-3xl sm:text-5xl md:text-6xl lg:text-5xl;
     /* font-size: 3.25rem; */
     /* 48px */
     line-height: 1;
   }
 
   h2 {
-    @apply text-2xl sm:text-4xl md:text-4xl;
+    @apply text-2xl sm:text-4xl md:text-5xl;
     font-weight: 300;
     font-family: "Yellowtail";
   }
 
   h3 {
-    @apply text-2xl sm:text-3xl md:text-4xl lg:text-4xl;
+    @apply text-2xl sm:text-3xl md:text-5xl lg:text-4xl;
     line-height: 1.4;
   }
 
@@ -43,7 +43,7 @@
   }
 
   h5 {
-    @apply text-2xl sm:text-3xl lg:text-2xl;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-2xl;
   }
 
   h6 {

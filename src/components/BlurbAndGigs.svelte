@@ -15,7 +15,7 @@
 </div>
 
 <style>
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 639px) {
     .white-circle {
       width: 240vw;
       top: -30vh;
@@ -41,7 +41,7 @@
     }
   }
 
-  @media only screen and (min-width: 641px) {
+  @media only screen and (min-width: 640px) {
     .white-circle {
       width: 180vw;
       top: -30vh;
@@ -67,7 +67,7 @@
     }
   }
 
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1024px) {
     .white-circle {
       width: 120vw;
       top: -30vh;

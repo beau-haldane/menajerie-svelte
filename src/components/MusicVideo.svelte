@@ -1,6 +1,6 @@
-<div class="flex flex-col gap-20 w-full items-center">
-  <h3>'Stuck' Music Video</h3>
-  <div class="px-24 w-full">
+<div class="flex flex-col sm:gap-8 lg:gap-20 w-full items-center">
+  <h3 class="sm:text-3xl lg:text-5xl">'Stuck' Music Video</h3>
+  <div class="lg:px-24 w-full">
     <iframe
       class="w-full aspect-video shadow-xl"
       src="https://www.youtube.com/embed/TvqwXvo0aHE?si=-zo4QMh61BSMklOO"

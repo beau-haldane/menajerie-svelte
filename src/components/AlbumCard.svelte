@@ -1,6 +1,6 @@
 <div class="-mt-16 flex flex-col xl:flex-row rounded-2xl bg-base-100 shadow-xl">
   <div class="album-art w-full xl:w-1/3 aspect-square sm:rounded-t-2xl xl:rounded-s-2xl" />
-  <div class="w-full xl:w-2/3 flex flex-col gap-5 justify-center p-7 xl:p-10">
+  <div class="w-full sm:text-center xl:w-2/3 flex flex-col gap-5 justify-center p-7 xl:p-10">
     <h1>Selective Deafness</h1>
     <h2>Debut EP Out Now</h2>
     <p>

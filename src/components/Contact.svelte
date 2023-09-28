@@ -1,10 +1,10 @@
-<div class="w-full flex gap-24 px-12 items-center">
-  <div class="contact-image w-1/2 aspect-[3/4] bg-slate-600" />
-  <div class="w-1/2 flex flex-col gap-8">
-    <h3>Contact Us</h3>
-    <p>menajerie.band@gmail.com for bookings</p>
+<div class="w-full flex gap-24 md:px-12 items-center">
+  <div class="contact-image sm:hidden md:block w-1/2 aspect-[3/4] bg-slate-600" />
+  <div class="md:w-1/2 flex flex-col gap-8">
+    <h3 class="sm:text-center">Contact Us</h3>
+    <p class="sm:text-center">menajerie.band@gmail.com for bookings</p>
     <form>
-      <div class="w-full flex flex-col gap-3">
+      <div class="w-full flex flex-col sm:gap-2 md:gap-3">
         <label for="name">Name </label>
         <input
           type="text"

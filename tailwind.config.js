@@ -3,9 +3,9 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
+      sm: '360px',
+      md: '640px',
+      lg: '992px',
       xl: '1440px',
     },
     extend: {

@@ -15,7 +15,7 @@
   <!-- Hero Container -->
   <div class="w-11/12 xl:w-9/12 mb-24 xl:h-full flex flex-col justify-between items-center">
     <Navbar />
-    <div class="mt-40 z-10 mb-2 flex flex-col gap-2.5 items-center">
+    <div class="sm:mt-80 z-10 mb-2 flex flex-col gap-2.5 items-center">
       <h2 class="light-text">Debut EP</h2>
       <h1 class="light-text">Selective Deafness</h1>
       <h2 class="light-text">Out Now</h2>
@@ -25,7 +25,7 @@
 </div>
 
 <style>
-  /* Extra small devices (phones, 600px and down) */
+  /* Extra small devices (phones, 640px and down) */
   @media only screen and (max-width: 640px) {
     .curved-bottom-border-hero {
       position: absolute;

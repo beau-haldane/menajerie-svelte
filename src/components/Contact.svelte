@@ -10,20 +10,24 @@
           type="text"
           name="name"
           class="input input-md border-primary w-full"
+          disabled
         />
         <label for="email">Email </label>
         <input
           type="email"
           name="email"
           class="input input-md border-primary w-full"
+          disabled
         />
         <label for="message">Message </label>
         <textarea
           name="message"
           class="textarea textarea-bordered border-primary w-full h-40"
+          disabled
         />
         <button
           class="btn btn-primary shadow-lg normal-case text-lg font-normal"
+          disabled
           >Submit</button
         >
       </div>

@@ -13,14 +13,14 @@
   <!-- End Curved DIVs -->
 
   <!-- Hero Container -->
-  <div class="w-11/12 lg:w-9/12 mb-24 lg:h-full flex flex-col justify-between items-center">
+  <div class="w-11/12 lg:w-9/12 lg:h-full flex flex-col justify-between items-center">
     <Navbar />
     <div class="h-36 md:h-60 hidden sm:block lg:hidden" />
     <div class="mt-80 sm:mt-96 lg:mt-0 z-10 mb-2 flex flex-col gap-2.5 items-center">
-      <h2 class="light-text">Debut EP</h2>
+      <!-- <h2 class="light-text">Debut EP</h2>
       <h1 class="light-text">Selective Deafness</h1>
-      <h2 class="light-text">Out Now</h2>
-      <ScrollDownIcon />
+      <h2 class="light-text">Out Now</h2>-->
+      <ScrollDownIcon /> 
     </div>
   </div>
 </div>

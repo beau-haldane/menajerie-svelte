@@ -1,4 +1,4 @@
-<div class="w-full flex flex-col lg:flex-row gap-24 lg:px-12 items-center">
+<div class="w-full flex flex-col lg:flex-row gap-12 lg:px-12 items-center">
   <div class="contact-image hidden lg:block w-1/2 aspect-[3/4] bg-slate-600" />
   <div class="w-full sm:w-2/3 lg:w-1/2 flex flex-col gap-8">
     <h3 class="text-center lg:text-left">Contact Us</h3>

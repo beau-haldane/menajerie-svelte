@@ -9,7 +9,7 @@
   }
 
   p {
-    @apply text-4xl md:py-6 lg:text-xl py-2 leading-normal;
+    @apply text-xl py-2 md:py-4  leading-normal;
   }
 
   h1,

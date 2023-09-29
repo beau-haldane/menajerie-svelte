@@ -2,7 +2,7 @@
   <div class="text-center lg:text-left lg:w-2/5">
     <h3>
       Neo-soul making, no shit taking, gonna get your booty shaking Menajerie
-      are a 6-piece female led collective based in Meanjin/Brisbane.
+      are a 6-piece female led collective based in Meanjin / Brisbane.
     </h3>
   </div>
   <div class="lg:w-3/5 hidden text-center lg:text-left lg:block flex flex-col gap-4">

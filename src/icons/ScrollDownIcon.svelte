@@ -1,8 +1,7 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="light-icon mt-5 sm:hidden"
-  width="24"
-  height="24"
+  class="light-icon mt-5 sm:hidden lg:block aspect-square h-8"
+
   viewBox="0 0 24 24"
   id="chevron-force-down"
   ><path

@@ -5,7 +5,7 @@
   export let gigs: Gig[] = [];
 </script>
 
-<div class="relative flex flex-col items-center sm:gap-24 md:gap-32">
+<div class="relative flex flex-col items-center gap-24 sm:gap-32">
   <div class="white-circle bg-secondary aspect-square rounded-full absolute" />
   <div class="outline-01 aspect-square rounded-full absolute" />
   <div class="outline-02 aspect-square rounded-full absolute" />
@@ -15,7 +15,7 @@
 </div>
 
 <style>
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 639px) {
     .white-circle {
       width: 240vw;
       top: -30vh;
@@ -41,7 +41,7 @@
     }
   }
 
-  @media only screen and (min-width: 641px) {
+  @media only screen and (min-width: 640px) {
     .white-circle {
       width: 180vw;
       top: -30vh;
@@ -67,7 +67,7 @@
     }
   }
 
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1024px) {
     .white-circle {
       width: 120vw;
       top: -30vh;

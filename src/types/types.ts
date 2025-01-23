@@ -5,8 +5,8 @@ export interface Gig {
   date: Date;
   time: string;
   blurb: string;
-  link: string;
-  link_button_text: string;
+  ticket_link: string;
+  event_link: string;
   publish: boolean;
   venue_name: string;
   venue_address: string;

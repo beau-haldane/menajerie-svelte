@@ -2,14 +2,10 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    screens: {
-      sm: '360px',
-      md: '640px',
-      lg: '992px',
-      xl: '1440px',
+    minWidth: {
+      'album': '50rem',
     },
     extend: {
-      
     },
   },
   plugins: [require("daisyui")],

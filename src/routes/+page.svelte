@@ -26,11 +26,15 @@
     if (error) {
       console.error("Error fetching gigs:", error);
     } else if (gigs) {
-      gigs.map((gig) => {
-        gig.date = format(new Date(gig.date), "eee MMM d");
-        gig.time = convertTo12HourFormat(gig.time);
-        return gig;
-      });
+      gigs = gigs
+        .filter((gig) => {
+          return new Date(gig.date) > new Date() && gig.publish;
+        })
+        .map((gig) => {
+          gig.date = format(new Date(gig.date), "eee MMM d");
+          gig.time = convertTo12HourFormat(gig.time);
+          return gig;
+        });
       return gigs;
     }
   };
@@ -53,10 +57,14 @@
   });
 </script>
 
-<div class="w-screen flex flex-col sm:gap-12 lg:gap-0 items-center overflow-hidden">
+<div
+  class="w-screen flex flex-col sm:gap-12 lg:gap-0 items-center overflow-hidden"
+>
   <Hero />
   <!-- Content Container -->
-  <div class="w-10/12 lg:w-9/12 xl:w-10/12 z-10 flex flex-col items-center gap-24 sm:gap-32">
+  <div
+    class="w-10/12 lg:w-9/12 xl:w-10/12 z-10 flex flex-col items-center gap-24 sm:gap-32"
+  >
     <AlbumCard />
     <MusicVideo />
     <BlurbAndGigs {gigs} />

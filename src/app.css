@@ -16,7 +16,8 @@
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  .caprasimo {
     font-family: "Caprasimo";
   }
 
@@ -47,15 +48,19 @@
   }
 
   h6 {
-    @apply lg:text-xl;
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
   }
 
   .btn{
     text-transform: none;
   }
 
-  .light-icon {
+  .white {
     filter: invert(97%) sepia(3%) saturate(883%) hue-rotate(327deg) brightness(102%) contrast(93%);
+  }
+
+  .light-icon {
+    filter: brightness(0) saturate(100%) invert(63%) sepia(31%) saturate(3360%) hue-rotate(339deg) brightness(102%) contrast(103%);
   }
 
   .dark-icon {

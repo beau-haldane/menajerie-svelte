@@ -17,9 +17,9 @@
     <Navbar />
     <div class="h-36 md:h-60 hidden sm:block lg:hidden" />
     <div class="mt-80 sm:mt-96 lg:mt-0 z-10 mb-2 flex flex-col gap-2.5 items-center">
-      <!-- <h2 class="light-text">Debut EP</h2>
-      <h1 class="light-text">Selective Deafness</h1>
-      <h2 class="light-text">Out Now</h2>-->
+      <h2 class="light-text">New Single</h2>
+      <h1 class="light-text">Reclamation</h1>
+      <h2 class="light-text">Out Now</h2>
       <ScrollDownIcon /> 
     </div>
   </div>
@@ -35,7 +35,7 @@
       height: 60vh;
       width: 200vw;
       border-radius: 0% 0% 50% 50%/0% 0% 50% 50%;
-      background-image: url("../img/hero.jpg");
+      background-image: url("../img/hero.png");
       background-position: center;
       background-size: 100%;
       background-position-y: 30%;
@@ -78,10 +78,10 @@
       height: 65vh;
       width: 200vw;
       border-radius: 0% 0% 50% 50%/0% 0% 50% 50%;
-      background-image: url("../img/hero.jpg");
+      background-image: url("../img/hero.png");
       background-position: center;
       background-size: 100%;
-      background-position-y: 10%;
+      background-position-y: 30%;
       z-index: 5;
     }
     .outline-01 {
@@ -122,7 +122,7 @@
       height: 100%;
       width: 200vw;
       border-radius: 0% 0% 50% 50%/0% 0% 50% 50%;
-      background-image: url("../img/hero.jpg");
+      background-image: url("../img/hero.png");
       background-position: center;
       background-size: 65%;
       background-position-y: 30%;

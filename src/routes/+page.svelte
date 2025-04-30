@@ -10,6 +10,7 @@
   import Contact from "../components/Contact.svelte";
   import Footer from "../components/Footer.svelte";
   import BlurbAndGigs from "../components/BlurbAndGigs.svelte";
+  import InstaFeed from "../components/InstaFeed.svelte";
 
   let gigs: Gig[] = [];
 
@@ -63,13 +64,14 @@
   <Hero />
   <!-- Content Container -->
   <div
-    class="w-10/12 lg:w-9/12 xl:w-10/12 z-10 flex flex-col items-center gap-24 sm:gap-32"
+    class="w-10/12 lg:w-9/12 z-10 flex flex-col items-center gap-24 sm:gap-32"
   >
     <AlbumCard />
-    <MusicVideo />
     <BlurbAndGigs {gigs} />
-    <Gallery />
-    <Contact />
+    <MusicVideo />
+    <!-- <Gallery /> -->
+    <InstaFeed />
+    <!-- <Contact /> -->
     <Footer />
   </div>
 </div>

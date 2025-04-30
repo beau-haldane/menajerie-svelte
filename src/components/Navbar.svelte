@@ -6,17 +6,9 @@
   export let light = true;
 </script>
 
-<div
-  class="h-auto mt-2 lg:pt-4 w-11/12 flex justify-between items-center z-10"
->
+<div class="h-auto mt-2 lg:pt-4 w-11/12 flex justify-between items-center z-10">
   <div class="flex-1">
-    <h3
-      class={light
-        ? "text-xl sm:text-4xl md:text-4xl light-text z-10"
-        : "text-xl sm:text-4xl z-10"}
-    >
-      Menajerie
-    </h3>
+    <div class="logo" />
   </div>
   <div class="flex items-center">
     <a
@@ -49,3 +41,31 @@
     </a>
   </div>
 </div>
+
+<style>
+  .logo {
+    background-image: url("../img/logo.png");
+    background-position: center;
+    background-size: contain;
+  }
+  @media only screen and (max-width: 639px) {
+    .logo {
+      width: 140px;
+      height: 35px;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    .logo {
+      width: 160px;
+      height: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .logo {
+      width: 260px;
+      height: 65px;
+    }
+  }
+</style>

@@ -9,7 +9,7 @@
   }
 
   p {
-    @apply text-xl py-2 md:py-4  leading-normal;
+    @apply text-lg py-2 md:py-4  leading-normal;
   }
 
   h1,
@@ -22,14 +22,14 @@
   }
 
   h1 {
-    @apply text-3xl sm:text-5xl md:text-6xl lg:text-5xl;
+    @apply text-2xl sm:text-4xl md:text-5xl lg:text-4xl;
     /* font-size: 3.25rem; */
     /* 48px */
     line-height: 1;
   }
 
   h2 {
-    @apply text-2xl sm:text-4xl md:text-5xl;
+    @apply text-xl sm:text-3xl md:text-4xl;
     font-weight: 300;
     font-family: "Yellowtail";
   }

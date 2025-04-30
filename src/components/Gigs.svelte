@@ -14,7 +14,7 @@
     <div class="w-full flex flex-col gap-8">
       {#each gigs as gig}
         <div
-          class="card w-full bg-secondary lg:py-0 outline outline-1 shadow-xl"
+          class="card w-full bg-secondary py-4 outline outline-1 shadow-xl"
         >
           <div
             class="flex flex-col gap-12 lg:gap-5 lg:flex-row w-full px-6 sm:px-12 sm:py-8 justify-between items-center"

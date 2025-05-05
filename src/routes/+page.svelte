@@ -69,9 +69,7 @@
     <AlbumCard />
     <BlurbAndGigs {gigs} />
     <MusicVideo />
-    <!-- <Gallery /> -->
     <InstaFeed />
-    <!-- <Contact /> -->
     <Footer />
   </div>
 </div>

@@ -16,7 +16,7 @@
       - to take up space and make yourself known.
     </p>
     <a
-      href="https://open.spotify.com/artist/3oGVt5PhRBGNiDkanRjrp3"
+      href="https://menajerie.bandcamp.com/track/reclamation"
       target="_blank"
       class="btn btn-outline lg:btn-md text-xl lg:text-xl normal-case btn-primary px-16 md:w-fit light-text"
       >Listen Now</a

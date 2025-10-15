@@ -1,20 +1,11 @@
 <div
   class="flex flex-col lg:flex-row items-center lg:px-12 gap-12 w-9/12 sm:w-full"
 >
-  <div class="text-center lg:text-left lg:w-2/5 sm:w-full">
-    <iframe
-      style="border-radius:12px"
-      src="https://open.spotify.com/embed/artist/3oGVt5PhRBGNiDkanRjrp3?utm_source=generator&theme=0"
-      width="100%"
-      height="400"
-      frameBorder="0"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-      title="Menajerie Spotify"
-    ></iframe>
+  <div class="text-center lg:text-left lg:w-1/4 sm:w-full">
+    <iframe style="border: 0; width: 100%; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=3728570130/size=large/bgcol=333333/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://menajerie.bandcamp.com/track/reclamation">Reclamation by Menajerie</a></iframe>
   </div>
   <div
-    class="lg:w-3/5 w-full text-center lg:text-left lg:block flex flex-col gap-4"
+    class="lg:w-3/4 w-full text-center lg:text-left lg:block flex flex-col gap-4"
   >
     <h3>
       Menajerie is a femme-driven neo soul collective from Meanjin, Brisbane.

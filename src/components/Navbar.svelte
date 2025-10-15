@@ -1,7 +1,7 @@
 <script>
   import InstagramIcon from "../icons/InstagramIcon.svelte";
   import PatreonIcon from "../icons/PatreonIcon.svelte";
-  import SpotifyIcon from "../icons/SpotifyIcon.svelte";
+  import BandcampIcon from "../icons/BandcampIcon.svelte";
   import YoutubeIcon from "../icons/YoutubeIcon.svelte";
   export let light = true;
 </script>
@@ -12,11 +12,11 @@
   </div>
   <div class="flex items-center">
     <a
-      href="https://open.spotify.com/artist/3oGVt5PhRBGNiDkanRjrp3"
+      href="https://menajerie.bandcamp.com/"
       target="_blank"
       class="btn btn-square btn-sm sm:btn-md btn-ghost"
     >
-      <SpotifyIcon {light} />
+      <BandcampIcon {light} />
     </a>
     <a
       href="https://www.youtube.com/@menajerie5746"
